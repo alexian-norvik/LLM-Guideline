@@ -55,3 +55,11 @@ This sequential approach is ideal for tasks like text generation. Masked models,
 Autoregressive models excel in generative tasks, while masked models are better suited for understanding and classification tasks.
 
 ![autoregressive](media/autoregressive.png)
+
+## What role do embeddings play in LLMs, and how are they initialized?
+Embeddings are dense, continuous vector representations of tokens, capturing semantic and syntactic information.
+They map discrete tokens (words or subwords) into a high-dimensional space, making them suitable for input into neural networks.
+Embeddings are typically initialized randomly or with pretrained vectors like Word2Vec or GloVe.
+During training, these embeddings are fine-tuned to capture task-specific nuances, enhancing the model's performance on various language tasks.
+
+![embeddings](media/embeddings.png)
