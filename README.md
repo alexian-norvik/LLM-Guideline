@@ -42,3 +42,9 @@ This forces the model to learn contextual relationships between words, enhancing
 MLM is commonly used in model like BERT, which are pretrained using this objective to develop a deep understanding of language before fine-tuning on specific tasks.
 
 ![masked](media/masked.png)
+
+## What are Sequence-to-Sequence Models?
+Sequence-to-Sequence (seq2seq) Models are a type of neural network architecture designed to transform one sequence of data into another sequence.
+These models are commonly used in tasks where the input and output have variable lengths, such as in machine translation, text summarization, and speech recognition.
+
+![seq2seq](media/seq2seq.png)
