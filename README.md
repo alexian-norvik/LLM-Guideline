@@ -25,3 +25,6 @@ This method is particularly useful when scaling large models, as it maintains pe
 ## What is beam search, and how does it differ from greedy decoding?
 Beam search is a search algorithm used during text generation to find the most likely sequence of words.
 Instead of choosing the signle highest-probability word at each step (as greedy decoding does), beam search explores multiple possible sequences in parallel, maintaining a set of the top k candidates (beams). It balances between finding high-probability sequences and exploring alternative paths. This leads to more coherent and contextually appropriate outputs, especially in long-form text generation tasks.
+
+![beam_search](media/beam_search.png)
+
